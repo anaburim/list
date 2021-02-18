@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Список</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="container flex">
+	<div class="total_list">
+	<div class="list">
+	  <h2 class="list_title">Список дел:</h2>
+	  <div class="list_none">Список пуст...</div>
+	  <div class="list_goals"></div>
+    </div>
+
+	<div class="add_goal">
+		<h2 class="add_title">Добавить новое дело</h2>
+		<form>
+		  <div class="goals_block">
+          <label class="goals_label">
+       	  <span>*Название</span>
+       	  <input type="text" name="name" placeholder="">
+          </label> 
+
+         <label class="goals_label">
+       	<span>*Описание</span>
+       	<textarea name="message" placeholder=""></textarea>
+         </label>
+        <button class="goals_to_list">Добавить дело</button>
+         </div>
+        </form> 
+       
+    </div>   
+   </div> 
+</div>
+    <script src="jquery-3.4.1.min.js"></script>
+	<script src="list.js"></script>
+	
+</body>
+</html>
